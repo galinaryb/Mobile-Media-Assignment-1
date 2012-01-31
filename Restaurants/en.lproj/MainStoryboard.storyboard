@@ -102,6 +102,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="w7O-Uy-E5Y" kind="push" id="TxZ-15-NMW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -110,6 +113,29 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="924" y="64"/>
+        </scene>
+        <scene sceneID="S3t-8p-XMq">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZxY-l0-xcR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="w7O-Uy-E5Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zFy-di-vJw">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tips" lineBreakMode="tailTruncation" minimumFontSize="10" id="gM4-so-30C">
+                                <rect key="frame" x="146" y="205" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CTQ-fK-ZIX"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1361" y="64"/>
         </scene>
     </scenes>
     <resources>
