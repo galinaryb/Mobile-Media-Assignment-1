@@ -14,7 +14,7 @@
     float dessertPrice = 5.50;
     float winePrice = 34.25;
     
-    int priceOfDinnerForGuests = 4;
+    int priceOfDinnerForGuests = 2;
     
     float taxRate = .0875;
     float tipRate = .2;
@@ -41,9 +41,11 @@
     numberOfEntreesOrdered = numberOfGuests;
     numberOfAppetizersOrdered = numberOfGuests/2;
     numberOfDessertsOrdered = numberOfGuests; 
-    numberOfWineBottlesOrdered = numberOfGuests/4;
+    numberOfWineBottlesOrdered = numberOfGuests/2;
     
     dinnerPrice = (numberOfAppetizersOrdered * appetizerPrice + numberOfDessertsOrdered * dessertPrice + numberOfEntreesOrdered * entreePrice + numberOfWineBottlesOrdered * winePrice)*10;
+    
+    
     
     
     tip = dinnerPrice * tipRate;
