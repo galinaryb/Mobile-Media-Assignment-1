@@ -43,7 +43,7 @@
     numberOfDessertsOrdered = numberOfGuests; 
     numberOfWineBottlesOrdered = numberOfGuests/4;
     
-    dinnerPrice = numberOfAppetizersOrdered * appetizerPrice + numberOfDessertsOrdered * dessertPrice + numberOfEntreesOrdered * entreePrice + numberOfWineBottlesOrdered * winePrice;
+    dinnerPrice = (numberOfAppetizersOrdered * appetizerPrice + numberOfDessertsOrdered * dessertPrice + numberOfEntreesOrdered * entreePrice + numberOfWineBottlesOrdered * winePrice)*10;
     
     
     tip = dinnerPrice * tipRate;
