@@ -14,7 +14,7 @@
     float dessertPrice = 5.50;
     float winePrice = 34.25;
     
-    int numberOfGuests = 4;
+    int numberOfGuests = 6;
     
     float taxRate = .0875;
     float tipRate = .2;
@@ -38,18 +38,10 @@
      Make sure to also calculate the tax and tip correctly, and feel free to use the numberOfXXXXXOrdered variables to help with your calculations;
      */
     
-    
-    
-    
-    
-    
-    
-    
-    
     numberOfEntreesOrdered = numberOfGuests;
-    numberOfAppetizersOrdered = numberOfGuests/2;
+    numberOfAppetizersOrdered = numberOfGuests/3;
     numberOfDessertsOrdered = numberOfGuests; 
-    numberOfWineBottlesOrdered = numberOfGuests/4;
+    numberOfWineBottlesOrdered = numberOfGuests/6;
     
     dinnerPrice = numberOfAppetizersOrdered * appetizerPrice + numberOfDessertsOrdered * dessertPrice + numberOfEntreesOrdered * entreePrice + numberOfWineBottlesOrdered * winePrice;
     
